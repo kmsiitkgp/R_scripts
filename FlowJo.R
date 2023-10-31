@@ -1,0 +1,8 @@
+BiocManager::install(c('flowCore', 'ComplexHeatmap', 'PeacoQC'))
+install.packages(c('ggplot2', 'FNN', 'igraph', 'Matrix', 'cowsay', 'umap', 'uwot', 'utils', 'devtools', 'data.table', 'dplyr'))
+BiocManager::install(c("flowCore", "FlowSOM"))
+install.packages("pheatmap")
+
+file.path(R.home("bin"), "R")
+system("type R")
+R.home()
